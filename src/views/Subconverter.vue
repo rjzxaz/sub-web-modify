@@ -332,6 +332,7 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
+          "站长短链1": "https://v1.121810.xyz/short",          
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
@@ -814,7 +815,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://subapi.121810.xyz" : this.getUrlParam(),
-        shortType: "https://v1.mk/short",
+        shortType: "https://v1.121810.xyz/short",
         remoteConfig: "https://raw.githubusercontent.com/gongaadd/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_self-built.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -1337,5 +1338,6 @@ export default {
   }
 };
 </script>
+
 
 

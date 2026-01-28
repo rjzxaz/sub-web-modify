@@ -1,4 +1,4 @@
-<template>
+"https://url.v1.mk" <template>
   <div>
     <el-row style="margin-top: 10px">
       <el-col>
@@ -813,9 +813,9 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://subapi.121810.xyz" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
+        remoteConfig: "https://raw.githubusercontent.com/gongaadd/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_self-built.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
@@ -1337,4 +1337,5 @@ export default {
   }
 };
 </script>
+
 

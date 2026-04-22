@@ -371,7 +371,7 @@ export default {
               {
                 label: "站长配置2",
                 value: "https://cloud-edit.121810.xyz/s/weUZrz"
-              }
+              },
               {
                 label: "站长配置3 负载均衡",
                 value: "https://cloud-edit.121810.xyz/s/spxbEg"

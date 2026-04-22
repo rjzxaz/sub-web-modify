@@ -343,15 +343,16 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
+          "站长短链": "https://v1.121810.xyz/short",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
         },
         customBackend: {
+          "站长后端1": "https://subapi.121810.xyz",
+          "账号后端2": "https://hfsubapi.121810.xyz/",
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
-          "肥羊提供-增强型后端": "https://url.v1.mk",
-          "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
           { value: "https://subapi.cmliussss.net" },
@@ -360,6 +361,19 @@ export default {
           { value: "https://api.v1.mk" },
         ],
         remoteConfig: [
+          {
+            label: "站长配置",
+            options: [
+              {
+                label: "站长配置(与Github同步)",
+                value: "https://raw.githubusercontent.com/gongaadd/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_self-built.ini"
+              },
+              {
+                label: "站长配置2",
+                value: "https://cloud-edit.121810.xyz/s/weUZrz"
+              }
+            ]
+          },
           {
             label: "CM规则",
             options: [
@@ -790,9 +804,9 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
-        shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
+        customBackend: this.getUrlParam() == "" ? "https://subapi.121810.xyz" : this.getUrlParam(),
+        shortType: "https://v1.121810.xyz/short",
+        remoteConfig: "https://raw.githubusercontent.com/gongaadd/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_self-built.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",

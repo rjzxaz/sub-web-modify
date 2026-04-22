@@ -350,15 +350,15 @@ export default {
         },
         customBackend: {
           "站长后端1": "https://subapi.121810.xyz",
-          "账号后端2": "https://hfsubapi.121810.xyz/",
+          "账号后端2": "https://hfsubapi.121810.xyz",
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
         },
         backendOptions: [
+          { value: "https://subapi.121810.xyz" },
+          { value: "https://hfsubapi.121810.xyz" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
-          { value: "https://url.v1.mk" },
-          { value: "https://api.v1.mk" },
         ],
         remoteConfig: [
           {
@@ -371,6 +371,10 @@ export default {
               {
                 label: "站长配置2",
                 value: "https://cloud-edit.121810.xyz/s/weUZrz"
+              }
+              {
+                label: "站长配置3 负载均衡",
+                value: "https://cloud-edit.121810.xyz/s/spxbEg"
               }
             ]
           },

@@ -350,11 +350,13 @@ export default {
         },
         customBackend: {
           "账号后端1": "https://hfsubapi.121810.xyz",
+          "账号后端2": "https://hfsubapib.121810.xyz",
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
         },
         backendOptions: [
           { value: "https://hfsubapi.121810.xyz" },
+          { value: "https://hfsubapib.121810.xyz" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
         ],

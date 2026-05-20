@@ -349,13 +349,13 @@ export default {
           "dlj.tf": "https://dlj.tf/short",
         },
         customBackend: {
-          "站长后端1": "https://koyeb-subapi.121810.xyz",
+          "站长后端1": "https://subapi.121810.xyz",
           "站长后端2": "https://subapi.zbzb.eu.org",
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
         },
         backendOptions: [
-          { value: "https://koyeb-subapi.121810.xyz" },
+          { value: "https://subapi.121810.xyz" },
           { value: "https://subapi.zbzb.eu.org" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
@@ -808,7 +808,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://koyeb-subapi.121810.xyz" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://subapi.121810.xyz" : this.getUrlParam(),
         shortType: "https://v1.121810.xyz/short",
         remoteConfig: "https://raw.githubusercontent.com/gongaadd/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_self-built.ini",
         excludeRemarks: "",

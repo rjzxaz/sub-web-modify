@@ -350,12 +350,14 @@ export default {
         },
         customBackend: {
           "站长后端1": "https://subapi.121810.xyz",
-          "站长后端2": "https://subapi.zbzb.eu.org",
+          "站长后端2": "https://rwsubapi.121810.xyz",
+          "站长后端3": "https://subapi.zbzb.eu.org",
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
         },
         backendOptions: [
           { value: "https://subapi.121810.xyz" },
+          { value: "https://rwsubapi.121810.xyz" },
           { value: "https://subapi.zbzb.eu.org" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
